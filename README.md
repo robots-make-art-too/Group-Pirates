@@ -1,9 +1,9 @@
 # 1. Group name: Group POV
 * Patricia Ocampo
-* membernamehere
-* membernamehere
-* membernamehere
-* membernamehere
+* Prachi Sadhwani
+* Guy Harary
+* Amir Saheb
+* Vanessa Yu
 
 # 2. Access to Github
 dfjkajfkdsjfdjkffjdfgjdfgjkd
