@@ -14,3 +14,4 @@ currently working on: making a github page + assets for our project (phase 2)
 ### what's in this repo?
 * EECS_1720_GROUP_PROJECT.pdf is an outline of the project requirements
 * resource.md is a list of resources for this project (from phase 1)
+* Group_Members.txt is a list of the current members and their access (same as above)
