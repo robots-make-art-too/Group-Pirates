@@ -6,6 +6,7 @@ currently working on: making a github page + assets for our project (phase 2)
 * ~~[this] is a link to our (sorta) finalized idea~~
 
 ### members and access
+* Elif S. - admin
 * Prachi Sadhwani - admin
 * Guy Harary - admin
 * Amir Saheb - admin
