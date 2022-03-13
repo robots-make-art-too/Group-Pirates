@@ -1,9 +1,10 @@
-# GROUP POV
+#  Pirates of the Seven(teen-20) Seas (previously GroupPOV)
 currently working on: making a github page + assets for our project (phase 2)
 
 ## technical and aesthetic thoughts
-* We would like to try something with 3rd person VR (live recording of a person at a distance & outputted into a VR headset they are wearing). The AR elements could possibly be interacted with like a game. We would like to speak with you (the prof) about details & what can be achieved.
-* ~~[this] is a link to our (sorta) finalized idea~~
+* We're working on making an AR scavenger hunt game.
+  * we plan on adding QR codes to hidden parts of campus which would show the user a model that would be a hint to the next location.
+* [phase 2 group documentation](https://harmless-ruby-a60.notion.site/group-project-documentation-phase-2-d4aa35fb870242a5b9160f7c49a32a6b)
 
 ### members and access
 * Elif S. - admin
@@ -16,3 +17,4 @@ currently working on: making a github page + assets for our project (phase 2)
 * EECS_1720_GROUP_PROJECT.pdf is an outline of the project requirements
 * resource.md is a list of resources for this project (from phase 1)
 * Group_Members.txt is a list of the current members and their access (same as above)
+* coming soon: phase2.md - a document mentioning certain details for phase 2
