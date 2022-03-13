@@ -1,13 +1,10 @@
 ---
 permalink: index
 ---
+# Pirates of the Seven(teen-20) Seas
 
-# Sample site for group projects
+Welcome! If you're here, you probably wanna find treasure with us.
 
-Just a little site example
+start [here]() 
 
-## AR content
-
-As they are updated you can find links to examples of the different types of AR.
-
-1. First, navigate to an example of using a `JavaScript` button to open the `AR` content we looked at [today](website/pages/index-1.html)
+[today](website/pages/index-1.html)
