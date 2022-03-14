@@ -1,6 +1,4 @@
----
-permalink: index
----
+
 # Pirates of the Seven(teen-20) Seas
 
 Welcome! If you're here, you probably wanna find treasure with us.
