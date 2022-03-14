@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: index
+---
+
 # Pirates of the Seven(teen-20) Seas
 
 Ahoy mateys!!
