@@ -1,8 +1,19 @@
-
 # Pirates of the Seven(teen-20) Seas
 
-Welcome! If you're here, you probably wanna find treasure with us.
+Ahoy mateys!!
+Help us find me treasure.
 
-start [here]() 
+click the button below to start the AR camera and use your phone to scan the marker on the poster.
 
-[today](website/pages/index-1.html)
+<button type="button" onclick="openTab('marker-based/ar-custom-pattern.html')">Camera</button>
+
+<script>
+function openTab(url) {
+const link = document.createElement('a');
+link.href = url;
+link.target = '\_blank';
+document.body.appendChild(link);
+link.click();
+link.remove();
+}
+</script>
