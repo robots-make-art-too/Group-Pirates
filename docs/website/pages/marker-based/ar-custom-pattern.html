@@ -6,23 +6,21 @@ permalink: marker-based/ar-custom-pattern.html
 
 <!DOCTYPE html>
 <html>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene 
-            vr-mode-ui="enabled: false;"
-            loading-screen="enabled: false;"
-            renderer="logarithmicDepthBuffer: true;"
-            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
-            id="scene"
+            arjs="sourceType: webcam; debugUIEnabled: false;"
             embedded
-        >
+            renderer="logarithmicDepthBuffer: true;"
+            vr-mode-ui="enabled: false"
+            id="scene">
         <a-marker  
-            id="animated-marker"
-            preset='custom' 
             type='pattern' 
-            url='./shark.patt'
-        >
+            url='./shark.patt'>
             
             <a-sphere position="0 1.25 -1.0" radius="1.25" color="#EF2D5E"></a-sphere>
 
