@@ -14,14 +14,18 @@
             vr-mode-ui="enabled: false"
             id="scene">
 
-        <a-marker  
-            id="custom"   
-            type="pattern" 
-            url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/c4e240bab17596cf2049e1eb0aa18b95a206124b/docs/website/pages/marker-based/assets/shark.patt">
-            
-            <a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
+            <a-assets>
+				<a-asset-item id="bowser" src="https://raw.githack.com/robots-make-art-too/GroupProject_info/df693164cd6fe5ccead4f9bd9a3be5a043edcbfb/docs/website/assets/models/bowser.glb"></a-asset-item>
+			</a-assets>
 
-        </a-marker>
+            <a-marker  
+                id="custom"   
+                type="pattern" 
+                url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/c4e240bab17596cf2049e1eb0aa18b95a206124b/docs/website/pages/marker-based/assets/shark.patt">
+                
+                <a-entity id="bowser-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#bowser"></a-entity>
+
+            </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
     </body>
