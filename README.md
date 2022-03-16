@@ -25,7 +25,7 @@ The website for this repo is built from:
 
 Screenshot of our live AR scene through phone:
 
-![image](/Group-Pirates/screenshot.PNG)
+![image](screenshot.PNG)
 
 Video of live AR scene through computer:
 
