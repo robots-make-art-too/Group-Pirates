@@ -21,3 +21,11 @@ The website for this repo is built from:
 * `phase2-qrcode.png` - custom QR code that taked you to index.md
 * `poster.png` - an example poster 
 
+### documentation
+
+Screenshot of our live AR scene through phone:
+
+![image](/Group-Pirates/screenshot.PNG)
+
+Video of live AR scene through computer:
+
