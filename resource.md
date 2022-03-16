@@ -1,3 +1,14 @@
+# links for AR stuff
+* [OBJ to GLTF](https://products.aspose.app/3d/conversion/obj-to-gltf#:~:text=%E2%9D%93%20How%20can%20I%20convert,can%20download%20your%20result%20file.) - conversions
+* [githack](https://raw.githack.com/) - file locator thingy (used when code couldnt find the .patt files)
+* [AR.js docs](https://github.com/AR-js-org/AR.js) - documentation
+* [marker trainer](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
+* [qr code maker](https://www.qrcode-monkey.com/)
+* [marker + qr code generator](https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html)
+
+----------------------------
+
+# phase 1 stuff
 ## Elif
 ### Technical resources
 * [OG:Crystals](https://ogcrystals.com/)
