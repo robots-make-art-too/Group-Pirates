@@ -29,3 +29,6 @@ Screenshot of our live AR scene through phone:
 
 Video of live AR scene through computer:
 
+https://user-images.githubusercontent.com/90432401/158530339-536d04c4-e6ff-4201-994e-f6c0d0075c2f.mov
+
+
