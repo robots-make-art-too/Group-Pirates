@@ -1,11 +1,23 @@
-# creating the site
+# Our Website
+[click here](https://robots-make-art-too.github.io/Group-Pirates/) or scan [this](https://github.com/robots-make-art-too/Group-Pirates/blob/gh-pages/phase2-qrcode.png)
 
-[click](https://robots-make-art-too.github.io/Group-Pirates/index-1.html)
+when [this marker](https://github.com/robots-make-art-too/Group-Pirates/blob/gh-pages/docs/pages/assets/shark.png) is scanned, the shark model appears. we have added UI so the user can use *two fingers* to change scale and *one finger* to rotate
 
-## Structure
+### structure
 
 The website for this repo is built from:
-
 1. `branch`: `gh-pages`
 2. directory: `docs/`
-3. splash/first/initial page: [`index.md`](docs/index.md)
+3. initial page: [`index.md`](docs/index.md)
+
+
+### what's in this branch
+* `docs` - contains the code for the gh page
+   * `pages` - contains the code for the different pages for our site
+     * `assets` - includes the css, models, the pattern, and the marker
+     * `ar-camera.html` - the site that uses the camera, detects the marker, displays the model
+   * `_config.yml` - the theme
+   * `index.md` - main landing page
+* `phase2-qrcode.png` - custom QR code that taked you to index.md
+* `poster.png` - an example poster 
+
