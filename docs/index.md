@@ -1,14 +1,12 @@
----
-layout: default
-permalink: index
----
 
-# Pirates of the Seven(teen-20) Seas
+
+# Help us find me treasure!!!
 
 Ahoy mateys!!
-Help us find me treasure.
+Legend has it a group of fancy seadogs hid my digital treasure somehere on yer campus. won't ya help us find it?
 
-click the button below to start the AR camera and use your phone to scan the marker on the poster.
+
+click the button below to start the AR camera and use your phone to scan the marker on the [poster]() to get the first hint
 
 <button type="button" onclick="openTab('./website/pages/marker-based/ar-custom-pattern.html')">Camera</button>
 
