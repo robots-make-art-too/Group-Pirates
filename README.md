@@ -1,5 +1,5 @@
 #  Pirates of the Seven(teen-20) Seas (previously GroupPOV)
-[our website](https://robots-make-art-too.github.io/Group-Pirates/) -> code is in `gh-pages branch`
+[our website](https://robots-make-art-too.github.io/Group-Pirates/) -> code and demo video is in `gh-pages branch`
 
 ## the big idea
 * we're working on making an AR scavenger hunt game.
