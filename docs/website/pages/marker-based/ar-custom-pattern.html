@@ -5,6 +5,9 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://rawcdn.githack.com/fcor/arjs-gestures/c08e69e5741d87d36e2a999a6103f11b92f5acd9/gesture-detector.js"></script>
+        <script src="https://rawcdn.githack.com/fcor/arjs-gestures/c08e69e5741d87d36e2a999a6103f11b92f5acd9/gesture-handler.js"></script>
+        
 	</head>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene 
@@ -12,7 +15,8 @@
             embedded
             renderer="logarithmicDepthBuffer: true;"
             vr-mode-ui="enabled: false"
-            id="scene">
+            id="scene"
+            gesture-detector>
 
             <a-assets>
 				<a-asset-item id="sharkadoo" src="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/10bbaeedc393814dcef5cb550d6a8013cf19f4f3/docs/website/pages/marker-based/assets/models/sharkadoo.gltf"></a-asset-item>
@@ -21,9 +25,20 @@
             <a-marker  
                 id="custom"   
                 type="pattern" 
-                url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/c4e240bab17596cf2049e1eb0aa18b95a206124b/docs/website/pages/marker-based/assets/shark.patt">
+                url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/c4e240bab17596cf2049e1eb0aa18b95a206124b/docs/website/pages/marker-based/assets/shark.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false
+                rayOrigin: mouse">
                 
-                <a-entity id="sharkadoo-gltf" position="0 1 0" scale="1.0 1.0 1.0" gltf-model="#sharkadoo"></a-entity>
+                <a-entity 
+                    id="sharkadoo-gltf" 
+                    position="0 0 0" 
+                    scale="1.0 1.0 1.0" 
+                    gltf-model="#sharkadoo"
+                    class="clickable"
+                    gesture-handler>
+                </a-entity>
 
             </a-marker>
         <a-entity camera></a-entity>
