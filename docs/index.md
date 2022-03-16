@@ -8,7 +8,7 @@ Legend has it a group of fancy seadogs hid my digital treasure somehere on yer c
 
 click the button below to start the AR camera and use your phone to scan the marker on the [poster]() to get the first hint
 
-<button type="button" onclick="openTab('./pages/marker-based/ar-camera.html')">Camera</button> 
+<button type="button" onclick="openTab('./pages/ar-camera.html')">Camera</button> 
 
 <script>
 function openTab(url) {
