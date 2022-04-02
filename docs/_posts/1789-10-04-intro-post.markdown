@@ -18,7 +18,7 @@ use **two fingers** to zoom in and out and **one finger** to rotate the model.
 
 happy hunting!!
 
-<button type="button" onclick="openTab('./ar-camera.html')">AR camera</button>
+<button type="button" onclick="openTab('Group-Pirates/docs/ar-camera.html')">AR camera</button>
 
 <script>
 function openTab(url) {
