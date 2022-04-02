@@ -1,0 +1,35 @@
+---
+layout: post
+title: "need a map?"
+author: Pirate
+---
+
+this campus is big and confusing! need some help finding a map? here's some links you could use to get around! (includes static and interactive maps).
+
+make sure to save one of these in case you need it later!!
+
+<br>
+<button type="button" onclick="openTab('https://acmaps.info.yorku.ca/files/2021/06/KEELE_Map_Colour-2018.pdf?x56546')">static map</button>
+<script>
+function openTab(url) {
+const link = document.createElement('a');
+link.href = url;
+link.target = '\_blank';
+document.body.appendChild(link);
+link.click();
+link.remove();
+}
+</script>
+
+<button type="button" onclick="openTab('https://map.concept3d.com/?id=1200#!ce/34557?s/?ct/29101,29093')">interactive map</button>
+
+<script>
+function openTab(url) {
+const link = document.createElement('a');
+link.href = url;
+link.target = '\_blank';
+document.body.appendChild(link);
+link.click();
+link.remove();
+}
+</script>

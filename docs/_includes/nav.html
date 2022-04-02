@@ -1,0 +1,9 @@
+<div class="container">
+  <ul id="navlist" class="left">
+    <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/">home</a></li>
+    <li {% if page.url == "/about/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/about/">about</a></li>
+    {% for nav in site.data.nav.social %}
+    <li><a href="{{ nav.href }}" target="_blank">{{ nav.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

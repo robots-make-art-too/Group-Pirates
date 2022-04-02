@@ -1,3 +1,26 @@
-title: [Scavenger Hunt]
-description: [Pirates of the Seven(teen-20) Seas]
-theme: jekyll-theme-architect
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Scavenger Hunt
+description: find the treasure hidden on campus!
+location: york university
+url: "https://robots-make-art-too.github.io/Group-Pirates/"
+author: Pirates of the Seven(teen-twenty) Seas
+
+# Build settings
+exclude: README.md
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+plugins_dir:
+  - jekyll-roman
+  - jekyll-seo-tag
+
