@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "what is this"
+title: "what is this?"
 author: Pirate Prac
 ---
 
