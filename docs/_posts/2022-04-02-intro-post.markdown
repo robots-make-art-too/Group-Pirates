@@ -20,7 +20,7 @@ look at the model carefully so you can find the right location.
 
 happy hunting!!
 
-<button type="button" onclick="openTab('ar-camera.html')">AR camera</button>
+<button type="button" onclick="openTab('https://robots-make-art-too.github.io/Group-Pirates/ar-camera.html')">AR camera</button>
 
 <script>
 function openTab(url) {
