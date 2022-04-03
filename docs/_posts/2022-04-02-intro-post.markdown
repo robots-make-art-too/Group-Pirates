@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "intro post"
+title: "what is this"
 author: Pirate Prac
-permalink: /intro/
 ---
 
 We are the Pirates of the Seven(teen-twenty) Seas! we’ve hidden some treasure somewhere on this campus!
@@ -21,7 +20,7 @@ look at the model carefully so you can find the right location.
 
 happy hunting!!
 
-<button type="button" onclick="openTab('/docs/ar-camera.html')">AR camera</button>
+<button type="button" onclick="openTab('ar-camera.html')">AR camera</button>
 
 <script>
 function openTab(url) {
