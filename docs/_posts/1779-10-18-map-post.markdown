@@ -21,6 +21,7 @@ link.remove();
 }
 </script>
 
+<br>
 <button type="button" onclick="openTab('https://map.concept3d.com/?id=1200#!ce/34557?s/?ct/29101,29093')">interactive map</button>
 
 <script>
