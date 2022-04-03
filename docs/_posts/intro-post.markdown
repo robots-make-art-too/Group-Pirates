@@ -2,6 +2,7 @@
 layout: post
 title: "intro post"
 author: Pirate Prac
+permalink: /intro/
 ---
 
 We are the Pirates of the Seven(teen-twenty) Seas! we’ve hidden some treasure somewhere on this campus!
