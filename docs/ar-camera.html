@@ -20,8 +20,10 @@
 
             <a-assets>
 				<a-asset-item id="sharkadoo" src="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/models/sharkadoo.gltf"></a-asset-item>
+                <a-asset-item id="cowboy_ace" src="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/models/cowboyace.gltf"></a-asset-item>
 			</a-assets>
 
+            <!-- Vari Hall, Welcome! location 1 -->
             <a-marker  
                 id="custom"   
                 type="pattern" 
@@ -32,15 +34,142 @@
                 rayOrigin: mouse">
                 
                 <a-entity 
-                    id="sharkadoo-gltf" 
+                    id="central_square-gltf" 
                     position="0 0 0" 
                     scale="1.0 1.0 1.0" 
-                    gltf-model="#sharkadoo"
+                    gltf-model="#central_square"
                     class="clickable"
                     gesture-handler>
                 </a-entity>
 
             </a-marker>
+
+            <!-- CSQ, location 2 -->
+            <a-marker  
+            id="custom"   
+            type="pattern" 
+            url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/markers/parrot-qr.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false
+            rayOrigin: mouse">
+            
+                <a-entity 
+                id="library-gltf" 
+                position="0 0 0" 
+                scale="1.0 1.0 1.0" 
+                gltf-model="#library"
+                class="clickable"
+                gesture-handler>
+                </a-entity>
+
+            </a-marker>
+
+            <!-- SC2, location 3 -->
+            <a-marker  
+            id="custom"   
+            type="pattern" 
+            url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/markers/shark-qr.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false
+            rayOrigin: mouse">
+            
+                <a-entity 
+                id="boat-gltf" 
+                position="0 0 0" 
+                scale="1.0 1.0 1.0" 
+                gltf-model="#boat"
+                class="clickable"
+                gesture-handler>
+                </a-entity>
+
+            </a-marker>
+
+            <!-- Pond, location 4 -->
+            <a-marker  
+            id="custom"   
+            type="pattern" 
+            url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/markers/ship-qr.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false
+            rayOrigin: mouse">
+            
+                <a-entity 
+                id="construction_burger-gltf" 
+                position="0 0 0" 
+                scale="1.0 1.0 1.0" 
+                gltf-model="#construction_burger"
+                class="clickable"
+                gesture-handler>
+                </a-entity>
+
+            </a-marker>
+
+            <!-- Bergeron, location 5 -->
+            <a-marker  
+            id="custom"   
+            type="pattern" 
+            url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/markers/skull-qr.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false
+            rayOrigin: mouse">
+            
+                <a-entity 
+                id="wendys-gltf" 
+                position="0 0 0" 
+                scale="1.0 1.0 1.0" 
+                gltf-model="#wendys"
+                class="clickable"
+                gesture-handler>
+                </a-entity>
+
+            </a-marker>
+
+            <!-- SC1, location 6 -->
+            <a-marker  
+            id="custom"   
+            type="pattern" 
+            url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/markers/treasure-qr.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false
+            rayOrigin: mouse">
+            
+                <a-entity 
+                id="cowboy_ace-gltf" 
+                position="0 0 0" 
+                scale="1.0 1.0 1.0" 
+                gltf-model="#cowboy_ace"
+                class="clickable"
+                gesture-handler>
+                </a-entity>
+
+            </a-marker>
+
+            <!-- ACW, location 7 -->
+            <a-marker  
+            id="custom"   
+            type="pattern" 
+            url="https://rawcdn.githack.com/robots-make-art-too/Group-Pirates/a6ac8935790ac1f6f53b66a2d5e5e71816216a14/docs/assets/markers/fish-qr.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false
+            rayOrigin: mouse">
+            
+                <a-entity 
+                id="sharkadoo-gltf" 
+                position="0 0 0" 
+                scale="1.0 1.0 1.0" 
+                gltf-model="#sharkadoo"
+                class="clickable"
+                gesture-handler>
+                </a-entity>
+
+            </a-marker>
+
         <a-entity camera></a-entity>
         </a-scene>
     </body>
