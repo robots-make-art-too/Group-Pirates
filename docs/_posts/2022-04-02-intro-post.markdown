@@ -20,11 +20,7 @@ look at the model carefully so you can find the right location.
 
 happy hunting!!
 
-<!-- temporarily commenting this out so i don't break anything -->
-<!-- <button type="button" onclick="openTab('https://robots-make-art-too.github.io/Group-Pirates/ar-camera.html')">AR camera</button> -->
-
-<!-- i'm trying to update the AR camera button here -->
-<button type="button" onclick="openTab('https://github.com/robots-make-art-too/Group-Pirates/blob/gh-pages/docs/ar-camera.html')">AR camera</button>
+<button type="button" onclick="openTab('https://robots-make-art-too.github.io/Group-Pirates/ar-camera.html')">AR camera</button>
 
 <script>
 function openTab(url) {
