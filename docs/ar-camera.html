@@ -25,6 +25,7 @@
                 <a-asset-item id="burger" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/burger.glb"></a-asset-item>
                 <a-asset-item id="bookshelf" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/bookshelf.glb"></a-asset-item>
                 <a-asset-item id="boat" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/boat.glb"></a-asset-item>
+                <a-asset-item id="csq" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/boat.glb"></a-asset-item>
 			</a-assets>
 
             <a-marker  
@@ -38,31 +39,33 @@
                 rayOrigin: mouse">
             
                 <a-entity 
-                    id="cowboy_ace" 
+                    id="csq_model" 
                     position="0 0 0" 
                     scale="0.5 0.5 0.5" 
-                    gltf-model="#csq"
+                    gltf-model="#csq" 
                     class="clickable"
                     gesture-handler>
                 </a-entity>
 
             </a-marker>
 
+        </a-marker>
+
             <a-marker  
                 id="parrot"   
                 type="pattern" 
                 preset="custom"
-                url="./assets/markers/parrot-marker.patt"
+                url="./assets/markers/parrot-qr.patt"
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false
                 rayOrigin: mouse">
             
                 <a-entity 
-                    id="cowboy_ace" 
+                    id="books" 
                     position="0 0 0" 
                     scale="0.5 0.5 0.5" 
-                    gltf-model="#cowboyace"
+                    gltf-model="#bookshelf"
                     class="clickable"
                     gesture-handler>
                 </a-entity>
@@ -81,15 +84,118 @@
                 rayOrigin: mouse">
                 
                 <a-entity 
-                    id="sharkadoo-gltf" 
+                    id="boat_model" 
                     position="0 0 0" 
                     scale="1.0 1.0 1.0" 
-                    gltf-model="#sharkadoo"
+                    gltf-model="#boat"
                     class="clickable"
                     gesture-handler>
                 </a-entity>
 
             </a-marker>
+
+            <a-marker  
+                id="ship"   
+                type="pattern" 
+                preset="custom"
+                url="./assets/markers/ship-qr.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false
+                rayOrigin: mouse">
+            
+                <a-entity 
+                    id="burg_model" 
+                    position="0 0 0" 
+                    scale="0.5 0.5 0.5" 
+                    gltf-model="#burger" 
+                    class="clickable"
+                    gesture-handler>
+                </a-entity>
+
+            </a-marker>
+
+            <a-marker  
+                id="skull"   
+                type="pattern" 
+                preset="custom"
+                url="./assets/markers/skull-qr.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false
+                rayOrigin: mouse">
+            
+                <a-entity 
+                    id="wendy_model" 
+                    position="0 0 0" 
+                    scale="0.5 0.5 0.5" 
+                    gltf-model="#wendy" 
+                    class="clickable"
+                    gesture-handler>
+                </a-entity>
+            </a-marker>
+
+            <a-marker  
+                id="treasure"   
+                type="pattern" 
+                preset="custom"
+                url="./assets/markers/treasure-qr.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false
+                rayOrigin: mouse">
+            
+                <a-entity 
+                    id="ace_model" 
+                    position="0 0 0" 
+                    scale="0.5 0.5 0.5" 
+                    gltf-model="#cowboyace" 
+                    class="clickable"
+                    gesture-handler>
+                </a-entity>
+            </a-marker>
+
+            <a-marker  
+                id="treasure"   
+                type="pattern" 
+                preset="custom"
+                url="./assets/markers/treasure-qr.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false
+                rayOrigin: mouse">
+            
+                <a-entity 
+                    id="acw_model" 
+                    position="0 0 0" 
+                    scale="0.5 0.5 0.5" 
+                    gltf-model="#cowboyace" 
+                    class="clickable"
+                    gesture-handler>
+                </a-entity>
+            </a-marker>
+
+            <a-marker  
+                id="fish"   
+                type="pattern" 
+                preset="custom"
+                url="./assets/markers/fish-qr.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false
+                rayOrigin: mouse">
+            
+                <a-entity 
+                    id="shark" 
+                    position="0 0 0" 
+                    scale="0.5 0.5 0.5" 
+                    gltf-model="#sharkadoo" 
+                    class="clickable"
+                    gesture-handler>
+                </a-entity>
+            </a-marker>
+
+
 
         <a-entity camera></a-entity>
         </a-scene>
