@@ -21,7 +21,32 @@
             <a-assets>
 				<a-asset-item id="sharkadoo" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/sharkadoo.glb"></a-asset-item>
                 <a-asset-item id="cowboyace" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/cowboyace.glb"></a-asset-item>
+                <a-asset-item id="wendy" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/wendy.glb"></a-asset-item>
+                <a-asset-item id="burger" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/burger.glb"></a-asset-item>
+                <a-asset-item id="bookshelf" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/bookshelf.glb"></a-asset-item>
+                <a-asset-item id="boat" src="https://raw.githack.com/robots-make-art-too/Group-Pirates/gh-pages/docs/assets/models/boat.glb"></a-asset-item>
 			</a-assets>
+
+            <a-marker  
+                id="anchor"   
+                type="pattern" 
+                preset="custom"
+                url="./assets/markers/anchor-qr.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false
+                rayOrigin: mouse">
+            
+                <a-entity 
+                    id="cowboy_ace" 
+                    position="0 0 0" 
+                    scale="0.5 0.5 0.5" 
+                    gltf-model="#csq"
+                    class="clickable"
+                    gesture-handler>
+                </a-entity>
+
+            </a-marker>
 
             <a-marker  
                 id="parrot"   
