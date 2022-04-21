@@ -3,7 +3,7 @@
 - [X] The Group Meeting with prof (this is yes or no and will be counted from the first request of meetings - not the reminder to have a meeting with me)
 - [] Set of videos and photos documenting the experience and all working components
 - [X] The live website at gh-pages branch AND QR code to custom Group landing page and AR activation
-- [] Instructions, introduction, theme, story etc. as documentation on landing webpage
+- [X] Instructions, introduction, theme, story etc. as documentation on landing webpage
 - [X] One of the following:
 * List of GPS coords/locations
 * [List of custom markers printed](https://github.com/robots-make-art-too/Group-Pirates/tree/gh-pages/docs/assets/markers)
