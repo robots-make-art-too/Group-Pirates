@@ -1,6 +1,6 @@
 # Phase 3 specific additions
-- [X] QR code submitted for printing
-- [X] The Group Meeting with me (this is yes or no and will be counted from the first request of meetings - not the reminder to have a meeting with me)
+- [X] [QR code](https://github.com/robots-make-art-too/Group-Pirates/blob/gh-pages/phase2-qrcode.png) submitted for printing
+- [X] The Group Meeting with prof (this is yes or no and will be counted from the first request of meetings - not the reminder to have a meeting with me)
 - [] Set of videos and photos documenting the experience and all working components
 - [X] The live website at gh-pages branch AND QR code to custom Group landing page and AR activation
 - [] Instructions, introduction, theme, story etc. as documentation on landing webpage
@@ -37,4 +37,4 @@ at them, and what else we could include. This is an example of the notes from on
 * is this in the models? models are mostly custom made to hint at the locations people can expect the next hint
 * is this in the experience?
 * what is the expected experience: what should we see and where (if you have treasure/riddle content you may leave this out until after we test)
-other ?
+* other ?
