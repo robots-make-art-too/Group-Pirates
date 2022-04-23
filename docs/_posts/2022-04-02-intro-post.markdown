@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "what is this?"
-author: Pirate Prac
+author: Pirate Prachi
 ---
 
 We are the Pirates of the Seven(teen-twenty) Seas! we’ve hidden some treasure somewhere on this campus!
