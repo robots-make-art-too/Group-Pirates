@@ -1,0 +1,9 @@
+anchor.patt/png leads to main landing page
+parrot.patt/png leads to location2.html
+shark.patt/png leads to location3.html
+ship.patt/png leads to location4.html
+skull.patt/png leads to location5.html
+treasure.patt/png leads to location6.html
+fish.patt/png leads to location7.html
+
+the location pages contain spoilers!!
