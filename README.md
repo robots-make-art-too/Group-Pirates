@@ -20,6 +20,8 @@ The website for this repo is built from:
    * `pages` - different pages that show up when the user scans the qr code on the poster 
      * *[WARNING] THESE PAGES CONTAIN SPOILERS AND ARE ONLY INTENDED TO BE SEEN AFTER THE USER REACHES THE LOCATION*
    * `ar-camera.html` - the site that uses the camera, detects the marker, displays the models
+   * `404.md` - error page
+   * `about.md` - about page
    * `_config.yml` - the theme
    * `index.md` - main landing page, uses the default layout
 * `phase2_content` - older phase 2 content that is not in use
